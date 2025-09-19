@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VegShop - Online Grocery Store & Organic Food HTML Website Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/fonts/satoshi/satoshi.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/icons/remixicon/remixicon.css">
+    <link rel="stylesheet" href="assets/icons/themify/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/niceselect.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Start Preloader -->
+    <div class="preloader_wrap">
+        <div class="preloader"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo.svg" alt="edutec">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+									<i class="fas fa-times"></i>
+								</button>
+                        </div>
+                    </div>
+                    <div class="mobile-menu fix mb-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Start Header Top -->
+    <div class="header_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-12">
+                    <ul class='ht-left'>
+                        <li><a href="#">Become a Seller</a></li>
+                        <li><a href="#">Online Tracking</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 d-xl-block d-none col-12 text-center align-self-center">
+                    <div class="header_top_content">
+                        <p>- Free shipping for orders over $50 -</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 col-12 text-lg-end">
+                    <ul class='ht-right'>
+                        <li>
+                            <a href="#">Download App </a>
+                            <div class="d-submenu">
+                                <h3>Download The VegShop App</h3>
+                                <ul class="d-flex gap-3">
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/download/appstore.svg" alt=""></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/download/gplay.svg" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Account</a>
+                        </li>
+                        <li><a href="#">Lang</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Top -->
+
+    <!-- Start Header -->
+    <div class="header_middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-6 align-self-center">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-4 d-none d-lg-block col-12 align-self-center">
+                    <div class="search_bar">
+                        <form action="#" method="get">
+                            <div class="search_category">
+                                <select class="category_select">
+										<option>All Categories</option>
+										<option>Rice</option>
+										<option>Olive Oil</option>
+										<option>Green Tea</option>
+										<option>Coffee</option>
+										<option>Super Food</option>
+										<option>Cocunut Oil</option>
+										<option>Black Rice</option>
+										<option>Seeds and Nuts</option>
+										<option>Pink Solt</option>
+										<option>Meat</option>
+									</select>
+                            </div>
+                            <input type="text" class="cat_input" onblur="if (this.value=='') this.value = this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value = ''" value="Write Keyword and Search">
+                            <button type="submit" class="cc_button">
+									<i class="ri-search-line"></i>
+								</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-6 text-end align-self-center">
+                    <div class="whit_cart d-flex end_item">
+                        <div class="whit_cart_item align-self-center">
+                            <a href="#">
+                                <i class="ri-heart-line"></i>
+                                <div class='d-inline-block text-start'>
+                                    <span class="whc_badge">0</span>
+                                    <p>Whitelist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="whit_cart_item align-self-center">
+                            <div class="header-divider"></div>
+                        </div>
+
+                        <div class="whit_cart_item align-self-center">
+                            <a href="#" class="mcart_icon" data-menu="#mini_cart">
+                                <i class="ri-shopping-cart-line"></i>
+                                <div class='d-inline-block text-start'>
+                                    <span class="whc_badge">1</span>
+                                    <p>Cart</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="mini_cart" class="min_cart_wrapper">
+            <div class="cart_drawer">
+                <div class="cart_top">
+                    <a href="#" class="cart_close"><i class="ri-close-fill"></i></a>
+                    <h3 class="title">Products List</h3>
+                    <span class="cart_number">4</span>
+                </div>
+
+                <div class="mini_cart_list">
+                    <ul>
+                        <li class="d-flex">
+                            <div class="thumb_img_cartmini">
+                                <a href="product-details.html" class="mc_img">
+                                    <img src="assets/img/flash_sale/1.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="product-detail">
+                                <h3 class="product_name_mini">
+                                    <a href="product-details.html">Orange- sweet and healthy summer fruit</a>
+                                </h3>
+                                <div class="product_info">
+                                    <div class="product_quanity"></div>
+                                    <div class="product_price">
+                                        <span class="price_sale">
+												<span class="quantity">3 × <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>250.00</bdi>
+                                        </span>
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="produc_remove">
+                                <a href="#" class="remove-product" aria-label="Remove Professional Ceramic Moulding for Beginners from cart" data-product_id="861" data-cart_item_key="f9a40a4780f5e1306c46f1c8daecee3b" data-product_sku=""><i class="ri-delete-bin-6-line"></i></a>
+                            </div>
+                        </li>
+
+
+                        <li class="d-flex">
+                            <div class="thumb_img_cartmini">
+                                <a href="product-details.html" class="mc_img">
+                                    <img src="assets/img/flash_sale/2.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="product-detail">
+                                <h3 class="product_name_mini">
+                                    <a href="product-details.html">
+											Strawberry- sweet and healthy summer fruit							
+										</a>
+                                </h3>
+                                <div class="product_info">
+                                    <div class="product_quanity"></div>
+                                    <div class="product_price">
+                                        <span class="price_sale">
+												<span class="quantity">1 × <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>270.00</bdi>
+                                        </span>
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="produc_remove">
+                                <a href="#" class="remove-product"><i class="ri-delete-bin-6-line"></i></a>
+                            </div>
+                        </li>
+
+                        <li class="d-flex">
+                            <div class="thumb_img_cartmini">
+                                <a href="product-details.html" class="mc_img">
+                                    <img src="assets/img/flash_sale/3.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="product-detail">
+                                <h3 class="product_name_mini">
+                                    <a href="product-details.html">
+											Capsicum - Amazing health Benefits							
+										</a>
+                                </h3>
+                                <div class="product_info">
+                                    <div class="product_quanity"></div>
+                                    <div class="product_price">
+                                        <span class="price_sale">
+												<span class="quantity">2 × <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>300.00</bdi>
+                                        </span>
+                                        </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="produc_remove">
+                                <a href="#" class="remove-product"><i class="ri-delete-bin-6-line"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cart_drawer_btm">
+                    <div class="sub-total">
+                        <strong>Subtotal:</strong> <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>1620.00</bdi>
+                        </span>
+                    </div>
+
+                    <div class="bottom_group">
+                        <a href="cart.html" class="button-viewcart">
+                            <span>View Cart</span>
+                        </a>
+                        <a href="checkout.html" class="button-checkout">
+                            <span>Checkout</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Middle -->
+
+    <!-- Start Main Header -->
+    <header id="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="header__hamburger d-xl-none my-auto">
+                    <div class="sidebar__toggle">
+                        <i class="ri-menu-2-line"></i>
+                    </div>
+                </div>
+                <div class="category_list dropdown">
+                    <div class="categories-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <i class="ri-menu-2-line"></i> <span>Browse Categories</span>
+                    </div>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="javascript:void(0)"><span>Cereal and Breakfast</span></a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"><span>Sauces and Spices</span></a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"><span>Meat and Seafood</span></a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"><span>Beverages</span></a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"><span>Dairy & Eggs</span></a></li>
+                        </li>
+                        <li><a href="#" class="dropdown-item"> Mega Sale 11.11 </a></li>
+                        <li><a href="#" class="dropdown-item"> Top Selling Products </a></li>
+                    </ul>
+                </div>
+
+                <!-- Main Menu -->
+                <nav class="main-menu position-relative">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="mega_items">
+                            <a href="shop.html">Shop<i class="fa fa-angle-down"></i></a>
+                            <div class="mega_menu">
+                                <ul class="mega_menu_inner">
+                                    <li class="mega-menu-li">
+                                        <a href="#">Vegetables</a>
+                                        <ul>
+                                            <li><a href="#">Cucumber</a></li>
+                                            <li><a href="#">Tomato</a></li>
+                                            <li><a href="#">Potato</a></li>
+                                            <li><a href="#">Onion</a></li>
+                                            <li><a href="#">Chilli</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="mega-menu-li">
+                                        <a href="#">Seasonal Fruits</a>
+                                        <ul>
+                                            <li><a href="#">Papaya</a></li>
+                                            <li><a href="#">Mango</a></li>
+                                            <li><a href="#">Lime</a></li>
+                                            <li><a href="#">Guava</a></li>
+                                            <li><a href="#">Pomelo</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="mega-menu-li">
+                                        <a href="#">Annual Fruits</a>
+                                        <ul>
+                                            <li><a href="#">Mango</a></li>
+                                            <li><a href="#">Apple</a></li>
+                                            <li><a href="#">Pineapple</a></li>
+                                            <li><a href="#">Guava</a></li>
+                                            <li><a href="#">Orange</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Product<i class="fa fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="product-details.html">Product Details</a></li>
+                                <li><a href="#">Variable Product</a></li>
+                                <li><a href="#">Affiliate product</a></li>
+                                <li><a href="#">Countdown Product</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li>
+                            <a href="#">Pages<i class="fa fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="product-details.html">Product Details</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="404.html">404</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+
+                </nav>
+
+                <!-- Call to Action Button -->
+                <div class="navbar_contact_area">
+                    <i class='ri-phone-line'></i>
+                    <div class="navbar_contact_area_end">
+                        <p>Hotline</p>
+                        <h4><a href="tel:01835476985">(0183) 547-6985</a></h4>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Main Header -->
+
+    <!-- Start Hero -->
+    <section class="hero-area">
+        <div class="container position-relative">
+            <!-- Slider main container -->
+            <div class="hero_slider" style="background-image: url(assets/img/slider/bg.svg);">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hero_item">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 align-self-center">
+                                    <div class="hero_content animated">
+                                        <h4>100% ORGANIC AND FRESH FOOD</h4>
+                                        <h1>Fresh Healthy <br> Grocery Food</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper non purus quis tincidunt</p>
+                                        <a href="#" class="main_btn">Shop Now <i class="ri-arrow-right-line"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 d-lg-block d-none d-md-none col-12 align-self-center z-2">
+                                    <div class="hero_img animated">
+                                        <img src="assets/img/slider/1.png" class="hmain_img eitem" alt="2">
+                                        <img src="assets/img/slider/palm.svg" class="hero_img_shape eitem" alt="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Hero Item -->
+
+
+                    <div class="swiper-slide">
+                        <div class="hero_item">
+                            <div class="row">
+                                <div class="col-lg-5 col-12 align-self-center">
+                                    <div class="hero_content animated">
+                                        <h4>100% ORGANIC AND FRESH FOOD</h4>
+                                        <h1>High Quality <br>Grocery Products</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper non purus quis tincidunt</p>
+                                        <a href="#" class="main_btn">Shop Now <i class="ri-arrow-right-line"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 d-lg-block d-none d-md-none col-12 align-self-center z-2">
+                                    <div class="hero_img animated">
+                                        <img src="assets/img/slider/2.png" class="hmain_img eitem" alt="2">
+                                        <img src="assets/img/slider/palm.svg" class="hero_img_shape eitem" alt="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Hero Item -->
+                </div>
+
+            </div>
+
+            <div class="hero_pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="hs_prev_arrow harrow"><i class="ph ph-caret-left"></i></div>
+            <div class="hs_next_arrow harrow"><i class="ph ph-caret-right"></i></div>
+
+            <div class="hero_shaps">
+                <img src="assets/img/slider/shapes/1.svg" class="hshap1 eitem" alt="1">
+                <img src="assets/img/slider/shapes/2.svg" class="hshap2 eitem" alt="2">
+                <img src="assets/img/slider/shapes/3.svg" class="hshap3 eitem" alt="2">
+                <img src="assets/img/slider/shapes/4.svg" class="hshap4 eitem" alt="3">
+                <img src="assets/img/slider/shapes/5.svg" class="hshap5 eitem" alt="1">
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Start Category -->
+    <section class="category-area pb-100">
+        <div class="container">
+            <div class="category_area">
+                <div class="section-title wow fadeInUp">
+                    <h2>Popular Category</h2>
+                </div>
+
+                <div id="category-slider" class="owl-carousel wow fadeIn">
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/coffe.png" alt="">
+                            <h4>Coffee & Tea</h4>
+                            <p>120 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/oil.png" alt="">
+                            <h4>Oil</h4>
+                            <p>250 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/venegar.png" alt="">
+                            <h4>Vinegar</h4>
+                            <p>1180 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/super-food.png" alt="">
+                            <h4>Super Food</h4>
+                            <p>540 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/nuts.png" alt="">
+                            <h4>Nuts & Seeds</h4>
+                            <p>85 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/salt.png" alt="">
+                            <h4>Salt</h4>
+                            <p>98 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/super-food.png" alt="">
+                            <h4>Super Food</h4>
+                            <p>540 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/nuts.png" alt="">
+                            <h4>Nuts & Seeds</h4>
+                            <p>85 Products</p>
+                        </a>
+                    </div>
+
+                    <div class="single_category">
+                        <a href="#">
+                            <img src="assets/img/category/salt.png" alt="">
+                            <h4>Salt</h4>
+                            <p>98 Products</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Category -->
+
+
+
+    <!-- Start Choose Us -->
+    <section class="choose_us pt_80 wow fadeInUp">
+        <div class="container">
+            <div class="section-title mb_50 wow fadeInUp">
+                <h2>Why Choose Us</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-12 align-self-center wow fadeInUp">
+                    <div class="nav flex-column nav-pills tabe-menu" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">
+								<img src="assets/img/choose_us/icon-1.svg" alt=""> 100% Organic Producs
+							</button>
+
+                        <button class="nav-link" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false">
+								<img src="assets/img/choose_us/icon-2.svg" alt=""> Express Delivery
+							</button>
+
+                        <button class="nav-link" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="false">
+								<img src="assets/img/choose_us/icon-3.svg" alt=""> 100% Organic Producs
+							</button>
+                    </div>
+                </div>
+                <!-- End COl-->
+
+                <div class="col-xl-8 col-12 wow fadeInUp">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-xl-6 col-12 align-self-center">
+                                    <div class="choose_img">
+                                        <img src="assets/img/choose_us/1.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-12 align-self-center">
+                                    <div class="choose_content">
+                                        <h3>Healthy Food is The Key to Your Good Mood</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac turpis sit amet nisi luctus aliquet non a ligula. Sed malesuada sit amet tellus in ultricies. Ut eu orci tincidunt, imperdiet leo nec, interdum
+                                            orci. Morbi blandit sapien ac faucibus lacinia. Ut consectetur pharetra urna et commodo. Nulla sit amet lectus odio. Maecenas ultrices nibh at auctor fermentum. </p>
+                                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-xl-6 col-12 align-self-center">
+                                    <div class="choose_img">
+                                        <img src="assets/img/choose_us/1.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-12 align-self-center">
+                                    <div class="choose_content">
+                                        <h3>Healthy Food is The Key to Your Good Mood</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac turpis sit amet nisi luctus aliquet non a ligula. Sed malesuada sit amet tellus in ultricies. Ut eu orci tincidunt, imperdiet leo nec, interdum
+                                            orci. Morbi blandit sapien ac faucibus lacinia. Ut consectetur pharetra urna et commodo. Nulla sit amet lectus odio. Maecenas ultrices nibh at auctor fermentum. </p>
+                                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-xl-6 col-12 align-self-center">
+                                    <div class="choose_img">
+                                        <img src="assets/img/choose_us/1.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6 col-12 align-self-center">
+                                    <div class="choose_content">
+                                        <h3>Healthy Food is The Key to Your Good Mood</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac turpis sit amet nisi luctus aliquet non a ligula. Sed malesuada sit amet tellus in ultricies. Ut eu orci tincidunt, imperdiet leo nec, interdum
+                                            orci. Morbi blandit sapien ac faucibus lacinia. Ut consectetur pharetra urna et commodo. Nulla sit amet lectus odio. Maecenas ultrices nibh at auctor fermentum. </p>
+                                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End COl-->
+            </div>
+        </div>
+    </section>
+    <!-- End Choose Us -->
+
+    <!-- Start Promo -->
+    <section id="promo" class="section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-12 wow fadeIn">
+                    <div class="promo_main_area" style="background-image: url(assets/img/promo/1.png);">
+                        <div class="promo_content">
+                            <h2><span>Pure & Organic</span> Kiwi Smoothie
+                            </h2>
+                            <p>Build your juicy life</p>
+                            <a href="#" class="main_btn">Buy Now <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-12 wow fadeIn">
+                    <div class="promo_main_area" style="background-image: url(assets/img/promo/2.png);">
+                        <div class="promo_content">
+                            <h2><span>Healthy Eating </span> Starts Here!</h2>
+                            <p>Build your juicy life</p>
+                            <a href="#" class="main_btn">Buy Now <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Promo -->
+
+    <!-- Start Popular Products -->
+    <section class="popular_products">
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <h2>Popular Products</h2>
+                    </div>
+                    <!-- End Col-->
+                </div>
+            </div>
+            <!-- End Row -->
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-12 wow fadeIn">
+                    <div class="popular_promo" style="background-image: url(assets/img/popular_products/mein.png);">
+                        <div class="ppromo_content text-center">
+                            <h2>
+                                <span><u>30%</u> Off</span> Best Selling Products
+                            </h2>
+                            <p>Detox Juice Recipes For <br>Weight Loss</p>
+                            <a href="#" class="yellow-btn">Buy Now <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-8 col-lg-6 col-12 wow fadeIn">
+                    <div class="pproduct_slider owl-carousel">
+                        <div class="single_pproduct d-flex" data-slide-index="0">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/1.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Cabbage- is low in calories, vitamin, fiber</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="1">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/2.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">SWEET GOURD- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="2">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/3.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="3">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/4.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="4">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/5.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="5">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/6.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="6">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/7.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+                        <div class="single_pproduct d-flex" data-slide-index="7">
+                            <div class="pproduct_img align-self-center">
+                                <span>-30%</span>
+                                <a href="product-details.html" class="d-block">
+                                    <div style="background-image:url(assets/img/popular_products/8.jpg);" class="pp_img_wrap"></div>
+                                </a>
+                            </div>
+
+                            <div class="pproduct_content align-self-center">
+                                <a href="#" class="pprating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.0)</span>
+                                </a>
+                                <h4><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h4>
+                                <div class="pproduct_price">
+                                    <span class="current_price">$45.00</span>
+                                    <del>$50.00</del>
+                                </div>
+                                <a href="product-details.html" class="border-btn">Add to Cart <i class="ri-shopping-cart-line"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Product -->
+
+
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+        </div>
+    </section>
+    <!-- End Popular Products -->
+
+    <!-- Start Recommended -->
+    <section class="recommended_products pt_80">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-12 wow fadeInUp">
+                    <div class="section-title">
+                        <h2>Recommended For you</h2>
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-7 col-12 text-lg-end rec_tab_area wow fadeInUp">
+                    <ul class="rec_tab">
+                        <li class="filter" data-filter="all">All</li>
+                        <li class="filter" data-filter=".fruit">Fruit</li>
+                        <li class="filter" data-filter=".vegitable">Vegitable</li>
+                        <li class="filter" data-filter=".oil">Oil</li>
+                        <li class="filter" data-filter=".fish">Fish</li>
+                        <li class="filter" data-filter=".meat">Meat</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row rec_product_items wow fadeIn">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix fruit">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/1.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Orange- sweet and healthy Vitamin-c fruit</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix vegitable">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/2.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Strawberry- sweet and healthy summer fruit</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix fruit">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge bg_orange">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/3.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Capsicum- sweet and healthy summer fruit</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix oil">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/4.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Curly parsley - is a herb with curly leaves</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix fruit">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/5.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Corn - source of fiber, vitamins, minerals etc</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix fish meat">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge bg_blue">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/6.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Cabbage- is low in calories, tons of vitamin C and fiber</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix fish meat">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/7.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Winter Vegetables - are a great source of vitamins, minerals etc</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mix oil">
+                    <div class="single_flash">
+                        <div class="flash-image">
+                            <span class="off_badge">Sale 40%</span>
+                            <a href="product-details.html" class="d-block">
+                                <img src="assets/img/flash_sale/8.png" alt="">
+                            </a>
+                            <ul>
+                                <li><a href="#"><i class="ri-heart-3-line"></i></a></li>
+                                <li><a href="#"><i class="ri-search-line"></i></a></li>
+                                <li><a href="#"><i class="ri-share-2-line"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="flash-rating">
+                            <a href="#">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="frating_number">(5.0)</span>
+                            </a>
+                        </div>
+
+                        <h3><a href="product-details.html">Tomato- High in vitamins A and C, potassium, and antioxidants</a></h3>
+
+                        <div class="flash_price">
+                            <span class="current_price">$45.00</span>
+                            <del>$50.00</del>
+                        </div>
+                        <a href="product-details.html" class="border-btn">Add to Cart <i class='ri-shopping-cart-line' ></i></a>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End Recommended Products -->
+
+    <!-- Start Discount -->
+    <section class="discount section_padding wow fadeInUp">
+        <div class="container">
+            <div class="discount_content">
+                <div class="d_off_badge mb_25">Up to 50% off</div>
+                <h2 class="mb_25">
+                    <span>Pure & Organic</span> Fruits, Veggies and Meat
+                </h2>
+                <p>Build your juicy life</p>
+                <a href="#" class="white-btn">Buy Now <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Discount -->
+
+
+
+
+    <!-- Start Counters -->
+    <div class="container pt_50 wow fadeInUp">
+        <div class="counter_area">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/1.svg" alt="">
+                        <div class="fix">
+                            <h4>Free Delivery</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                    <div class="count_devider"></div>
+                </div>
+                <!-- End Col-->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/2.svg" alt="">
+                        <div class="fix">
+                            <h4>Secure Payment</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                    <div class="count_devider"></div>
+                </div>
+                <!-- End Col-->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/3.svg" alt="">
+                        <div class="fix">
+                            <h4>100% Satisfaction</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                    <div class="count_devider"></div>
+                </div>
+                <!-- End Col-->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/4.svg" alt="">
+                        <div class="fix">
+                            <h4>24/7 Support</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col-->
+            </div>
+        </div>
+    </div>
+    <!-- End Counters -->
+
+    <!-- Start Blog -->
+    <section class="blog pt_80">
+        <div class="container">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-12 align-self-center wow fadeInUp">
+                        <h2>Latest News</h2>
+                    </div>
+                    <!-- End Col-->
+
+                    <div class="col-lg-6 col-sm-6 col-12 text-end wow fadeInUp">
+                        <a href="blog.html" class="underline_btn">View All <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!-- End Col-->
+                </div>
+            </div>
+
+            <div class="blog_area">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-12 wow fadeInUp">
+                        <div class="single_blog">
+                            <img src="assets/img/blog/1.png" alt="">
+                            <h3><a href="blog-details">12 Healthy Fruits and Vegetables Must-Haves to Stock </a></h3>
+                            <ul class="blog_meta">
+                                <li><i class="ri-time-line"></i> 24 July 2025</li>
+                                <li><i class="ri-file-line"></i>
+                                    <a href="#">Business</a>,
+                                    <a href="#">Technology</a>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="blog_btn">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Col-->
+
+                    <div class="col-xl-4 col-lg-6 col-12 wow fadeInUp">
+                        <div class="single_blog">
+                            <img src="assets/img/blog/2.png" alt="">
+                            <h3><a href="blog-details">Great bulk recipes to help use all your organic</a></h3>
+                            <ul class="blog_meta">
+                                <li><i class="ri-time-line"></i> 24 July 2025</li>
+                                <li><i class="ri-file-line"></i>
+                                    <a href="#">Business</a>,
+                                    <a href="#">Technology</a>
+                                </li>
+                            </ul>
+                            <a href="#" class="blog_btn">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Col-->
+
+                    <div class="col-xl-4 col-lg-6 col-12 wow fadeInUp">
+                        <div class="single_blog">
+                            <img src="assets/img/blog/3.png" alt="">
+                            <h3><a href="blog-details">12 Healthy Fruits and Vegetables Must-Haves to Stock</a></h3>
+                            <ul class="blog_meta">
+                                <li><i class="ri-time-line"></i> 24 July 2025</li>
+                                <li><i class="ri-file-line"></i>
+                                    <a href="#">Business</a>,
+                                    <a href="#">Technology</a>
+                                </li>
+                            </ul>
+
+                            <a href="#" class="blog_btn">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Col-->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+    <!-- Start Newsletter -->
+    <section id="newsletter" class="section_padding wow fadeInUp">
+        <div class="container">
+            <div class="newsletter_area" style="background-image: url(assets/img/newsletter/bg.png);">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-12">
+                        <div class="newsletter_content">
+                            <h3><span>Don't Miss Out on</span> Grovery Deals</h3>
+                            <h4>Sign up for the Updated Newsletter</h4>
+                            <div class="newsletter_form">
+                                <form id="newsletter_form" action="contact.php" method="POST">
+                                    <input type="email" id="gmail" class="gmail" placeholder="Enter Email Address">
+                                    <button class="newsletter_btn" type="submit"><i class="ri-arrow-right-line"></i></button>
+                                </form>
+                                <p class="form-message mt-4 text-center"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-12 position-relative text-center">
+                        <div class="newsletter_img text-center">
+                            <img src="assets/img/newsletter/image.png" class="main_img eitem" alt="1">
+                            <img src="assets/img/newsletter/shape.png" class="news_shape eitem" alt="2">
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End NewsLetter -->
+
+    <!-- Start Partners -->
+    <section Class="partners pb_100">
+        <div class="container">
+            <div class="section-title wow fadeInUp">
+                <h2>Popular Brands</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-12 wow fadeIn">
+                    <div id="partner-slider" class="owl-carousel">
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/1.png" alt=""></a>
+                        </div>
+
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/2.png" alt=""></a>
+                        </div>
+
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/3.png" alt=""></a>
+                        </div>
+
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/4.png" alt=""></a>
+                        </div>
+
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/5.png" alt=""></a>
+                        </div>
+
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/6.png" alt=""></a>
+                        </div>
+
+                        <div class="partner_item">
+                            <a href="#"><img src="assets/img/partners/1.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+        </div>
+    </section>
+    <!-- End Partners -->
+    <!-- Start Main Banner -->
+    <section class="main-banner banner_style_2">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+        </div>
+    </section>
+    <!-- End Main Banner -->
+
+    <!-- Start Contact Info -->
+    <section class="contact-info section_padding pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-12 wow fadeInUp">
+                    <div class="contact_info_item gap-4">
+                        <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+                        <div class="cinfo_content">
+                            <p>
+                                60 29th San Francisco,<br> 507 - Union Trade Center
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-md-6 col-12 wow fadeInUp">
+                    <div class="contact_info_item gap-4">
+                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                        <div class="cinfo_content">
+                            <span>Call us : </span>
+                            <p>
+                                <a href="#">+00 123-456-789</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-md-6 col-12 wow fadeInUp">
+                    <div class="contact_info_item gap-4">
+                        <i aria-hidden="true" class="fas fa-mail-bulk"></i>
+                        <div class="cinfo_content">
+                            <span>Mail us : </span>
+                            <p>
+                                <a href="#">Vegshop@example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-md-6 col-12 wow fadeInUp">
+                    <div class="contact_info_item gap-4">
+                        <i aria-hidden="true" class="fas fa-clock"></i>
+                        <div class="cinfo_content">
+                            <span>Open time : </span>
+                            <p>
+                                10:00AM – 6:00PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Info -->
+
+    <!-- Start Contact Us -->
+    <section class="contact-us section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center wow fadeIn">
+                    <div class="c_gmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231211.56146073452!2d54.96253452675277!3d25.1126695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6beb24d61669%3A0xb634a6142f74414a!2sFreshmart%20Supermarket-%20Al%20Barsha!5e0!3m2!1sen!2sbd!4v1733639427865!5m2!1sen!2sbd"
+                            width="600" height="595" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-lg-6 align-self-center wow fadeIn">
+                    <div class="contact_form_wrap">
+                        <div class="contact_title">
+                            <h2>Get in Touch with us</h2>
+                            <p>
+                                If you'd like to contact us directly, please complete the form below.
+                            </p>
+                        </div>
+
+                        <div class="contact-form">
+                            <form id="contact-form" method="post" action="contact.php">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-4"><label class="label" for="name">Your Name *</label><input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" /></div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-4"><label class="label" for="email">Your Email *</label><input type="email" name="email" id="email" class="form-control" placeholder="Enter your  email" /></div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-4"><label class="label" for="subject">Your Subject *</label><input type="text" name="subject" id="subject" class="form-control" placeholder="Your subject" /></div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-4"><label class="label" for="message">Your Message *</label><textarea name="message" id="message" class="form-control" placeholder="Write message" cols="30" rows="5"></textarea></div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-0"><button type="submit" class="main_btn">Submit Now</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="form-message mt-4 text-center"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+    <!-- Start Counters -->
+    <div class="container pb_70">
+        <div class="counter_area">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex wow fadeInUp">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/1.svg" alt="">
+                        <div class="fix">
+                            <h4>Free Delivery</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                    <div class="count_devider"></div>
+                </div>
+                <!-- End Col-->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex wow fadeInUp">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/2.svg" alt="">
+                        <div class="fix">
+                            <h4>Secure Payment</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                    <div class="count_devider"></div>
+                </div>
+                <!-- End Col-->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex wow fadeInUp">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/3.svg" alt="">
+                        <div class="fix">
+                            <h4>100% Satisfaction</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                    <div class="count_devider"></div>
+                </div>
+                <!-- End Col-->
+
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 d-flex wow fadeInUp">
+                    <div class="counter_item">
+                        <img src="assets/img/counter/4.svg" alt="">
+                        <div class="fix">
+                            <h4>24/7 Support</h4>
+                            <p>Free Shipping all over the World</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col-->
+            </div>
+        </div>
+    </div>
+    <!-- End Counters -->
+    <!-- start footer -->
+    <section id="footer" style="background-image: url(assets/img/footer/bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 wow fadeIn">
+                    <div class="footer_widget footer_about">
+                        <h4>About The Shop</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curabitur sed</p>
+                        <div class="footer_cinfo">
+                            <p><i class="ph ph-envelope-simple"></i> <span><a href="#">Support@example.com</a></span></p>
+                            <p><i class="ph ph-phone"></i> <span><a href="#">+0985474624225</a></span></p>
+                            <p><i class="ph ph-map-pin"></i> <span>1585 Straford Park Allen,<br> KY 41601</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12 wow fadeIn">
+                    <div class="footer_widget">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#">Prices Drop</a></li>
+                            <li><a href="#">New Products</a></li>
+                            <li><a href="#">Best Sales</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Stores</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12 wow fadeIn">
+                    <div class="footer_widget">
+                        <h4>Our Company</h4>
+                        <ul>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Legal Notice</a></li>
+                            <li><a href="#">Terms And Conditions</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Secure Payment</a></li>
+                            <li><a href="#">My Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12 wow fadeIn">
+                    <div class="footer_widget">
+                        <h4>Your Account</h4>
+                        <ul>
+                            <li><a href="#">Product Support</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">License Policy</a></li>
+                            <li><a href="#">Affiliate</a></li>
+                            <li><a href="#">Locality</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 wow fadeIn">
+                    <div class="footer_widget footer_download">
+                        <h4>Download App</h4>
+                        <p>Download our app to access <br>exclusive savings! Enjoy a fantastic <br> 15% discount!</p>
+                        <div class="store_icons d-flex gap-3">
+                            <a href="#"><img src="assets/img/footer/download/app-store.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/footer/download/google-play.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+        </div>
+
+        <div class="footer-bottom wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="copyright">
+                            <p>Copyright © 2025 <a href="#">Themesvila</a>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-lg-4 col-12">
+                        <ul class="footer_social_link">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-lg-4 col-12 payment_logo text-end">
+                        <img src="assets/img/footer/paym-icon.png" alt="">
+                    </div>
+                    <!-- End Col -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Start progress-wrap -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+				<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+			</svg>
+    </div>
+    <!-- End progress-wrap -->
+
+    <!-- JS Script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/scroll-top.js"></script>
+    <script src="assets/js/bg_video.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/nicesellect.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/newsletter.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        //Countdown
+        jQuery(".active_countdown")
+            .countdown("2027/01/01", function(event) {
+                jQuery(this).html(
+                    event.strftime('<span>%D</span> : <span>%H</span> : <span>%M</span> : <span>%S</span>')
+                );
+            });
+
+        // START Recomanded
+        var mixproduct = mixitup('.rec_product_items');
+        // END Recomanded
+    </script>
+</body>
+
+</html>
